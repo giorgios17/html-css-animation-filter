@@ -31,6 +31,7 @@
 }
 .ex-6-img, .ex-7-img, .ex-8-img {
     width: 500px;
+    
 }
 
 .ex-9-img {
@@ -104,4 +105,10 @@ transform: scale(2);
 
 .ex-5-square:active{
 transform: scale(0.5);
+}
+
+/* EX 6 */
+
+.ex-6-img:hover{
+    filter: grayscale(100%);
 }
