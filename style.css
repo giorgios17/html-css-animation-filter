@@ -53,6 +53,7 @@
 }
 .ex-11-icon {
     font-size: 60px;
+    transition: transform 2s;
 }
 .ex-12-button, .ex-13-button {
     position: relative;
@@ -159,8 +160,32 @@ transform: scale(0.5);
 }
 
 @keyframes ex11rotate {
-    80%{transform: rotate(270deg);}
-    100%{transform: rotate(-270deg);
+    90%{transform: rotate(270deg);}
+    100%{transform: rotate(0deg);
     }
    }
    
+/* EX 12 */
+
+.ex-12-button:hover .ex-12-top-white{
+    animation-name: ex12bordertop;
+    animation-duration: 1.5s;
+    animation-timing-function: linear;
+}
+
+.ex-12-button:hover .ex-12-bottom-white{
+    animation-name: ex12borderbottom;
+    animation-duration: 1.5s;
+    animation-timing-function: linear;
+}
+
+
+@keyframes ex12bordertop {
+    50% {left: 130px;}
+    100%{left: 10%;}
+}
+
+@keyframes ex12borderbottom {
+    50% {right: 130px;}
+    100% {right: 20%;}
+}
