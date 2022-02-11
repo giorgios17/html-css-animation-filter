@@ -20,6 +20,7 @@
     width: 100px;
     height: 100px;
     background: red;
+    transition: opacity 1.5s;
 }
 .ex-5-square {
     margin: 20px;
@@ -85,7 +86,12 @@
 /* EX 3 */
 
 .ex-3-square:hover {
-border-radius: 50%;
+    border-radius: 50%;
+}
 
+/* EX 4 */
+
+.ex-4-square:hover{
+    opacity: 0;
 }
   
