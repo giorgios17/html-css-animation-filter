@@ -189,3 +189,35 @@ transform: scale(0.5);
     50% {right: 130px;}
     100% {right: 20%;}
 }
+
+/* EX 13 */
+
+.ex-13-button:hover .ex-13-top-white{
+    animation-name: ex13top;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+}
+
+@keyframes ex13top {
+    0%   {top: -10px; left: 10%;}
+    20%  {top: -10px; left: 100%;}
+    40%  {left: 100%; top: 55px;}
+    60%  {top: 55px; left: -10%;}
+    80%  {left: -10%; top: -10px;} 
+    100% {top: -10px; left: 10%;}
+  }
+
+  .ex-13-button:hover .ex-13-bottom-white{
+    animation-name: ex13bottom;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+}
+
+@keyframes ex13bottom {
+    0%   {bottom: -10px; right: 20%;}
+    20%  {bottom: -10px; right: 100%;}
+    40%  {right: 100%; bottom: 55px;}
+    60%  {bottom: 55px; right: -20%;}
+    80%  {right: -20%; bottom: -10px;} 
+    100% {bottom: -10px; right: 20%;}
+}
