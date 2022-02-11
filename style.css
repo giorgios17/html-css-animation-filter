@@ -123,3 +123,11 @@ transform: scale(0.5);
 .ex-7-img:hover{
     filter: sepia(100%) contrast(100%);
 }
+
+/* EX 8 */
+
+.ex-8-img:hover{
+    border-radius: 30px;
+    filter: saturate(20%) sepia(40%);
+}
+
