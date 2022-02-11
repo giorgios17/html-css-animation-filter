@@ -31,8 +31,13 @@
 }
 .ex-6-img, .ex-7-img, .ex-8-img {
     width: 500px;
-    
+
 }
+
+.ex-7-img, .ex-8-img{
+    transition: all 2s;
+}
+
 
 .ex-9-img {
     margin: 50px 100px;
@@ -111,4 +116,10 @@ transform: scale(0.5);
 
 .ex-6-img:hover{
     filter: grayscale(100%);
+}
+
+/* EX 7 */
+
+.ex-7-img:hover{
+    filter: sepia(100%) contrast(100%);
 }
